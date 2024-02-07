@@ -1,0 +1,42 @@
+#about {
+  background-color: rgba(250, 250, 250, 1);
+  .about-container {
+    display: flex;
+    margin: 4rem 0px;
+    justify-content: space-between;
+    gap: 30px;
+
+    .about-img {
+      flex: 1;
+      img {
+        width: 100%;
+        border-radius: 8px;
+      }
+    }
+
+    .about-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h3 {
+        font-size: 2.0625rem;
+      }
+
+      .btn-Sceondary {
+        background-color: var(--secondary-button);
+      }
+
+      .btn-Sceondary:hover {
+        background-color: var(--secondary-button-hover);
+      }
+    }
+  }
+}
+
+/* responsive code  */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,23 @@
+footer {
+  padding: var(--page-padding);
+  background-color: var(--secondary-button);
+  ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    li {
+      a:hover {
+        color: var(--title-color);
+        transition: var(--hover);
+      }
+    }
+  }
+  p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem !important;
+    color: var(--title-color) !important;
+  }
+}

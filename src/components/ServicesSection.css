@@ -1,0 +1,49 @@
+#section {
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.section-heading {
+  text-align: center;
+  font-family: var(--font);
+  font-size: 2.625rem;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-family: var(--font-secondary);
+  font-size: 1.125rem;
+  color: var(--text-color);
+}
+
+.service-paragraph {
+  text-align: center;
+}
+
+.service-card-container {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  box-shadow: var(--shadow);
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+}
+
+.service-card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.75rem;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+}

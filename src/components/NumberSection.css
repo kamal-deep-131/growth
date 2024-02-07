@@ -1,0 +1,23 @@
+#number {
+  color: white;
+  background-color: rgba(38, 38, 38, 1);
+}
+
+.number-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .number-card {
+    div {
+      font-family: var(--font-secondary);
+      font-weight: bold;
+      color: var(--bg-button-color);
+    }
+    p {
+      color: var(--secondary-button);
+    }
+    margin-bottom: 2rem;
+  }
+}

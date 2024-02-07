@@ -1,0 +1,36 @@
+section {
+  padding: var(--page-padding);
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1 {
+      font-family: var(--font);
+      font-size: 4rem;
+    }
+    p {
+      font-family: var(--font-secondary);
+      font-size: 1.125rem;
+      color: var(--text-color);
+      margin-bottom: 10px;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+/* responsive code  */
+@media (max-width: 768px) {
+  #hero {
+    flex-direction: column;
+  }
+}
