@@ -10,6 +10,7 @@
   flex-wrap: wrap;
 
   .number-card {
+    min-width: 150px;
     div {
       font-family: var(--font-secondary);
       font-weight: bold;
